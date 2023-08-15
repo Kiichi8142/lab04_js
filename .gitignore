@@ -1545,3 +1545,12 @@ node_modules/yaml/dist/stringify/stringifyPair.d.ts
 node_modules/yaml/dist/stringify/stringifyPair.js
 node_modules/yaml/dist/stringify/stringifyString.d.ts
 node_modules/yaml/dist/stringify/stringifyString.js
+node_modules/@tailwindcss/aspect-ratio/CHANGELOG.md
+node_modules/@tailwindcss/aspect-ratio/package.json
+node_modules/@tailwindcss/aspect-ratio/README.md
+node_modules/@tailwindcss/aspect-ratio/.github/ISSUE_TEMPLATE/1.bug_report.yml
+node_modules/@tailwindcss/aspect-ratio/.github/ISSUE_TEMPLATE/config.yml
+node_modules/@tailwindcss/aspect-ratio/.github/workflows/release-insiders.yml
+node_modules/@tailwindcss/aspect-ratio/src/index.d.ts
+node_modules/@tailwindcss/aspect-ratio/src/index.js
+node_modules/@tailwindcss/aspect-ratio/tests/test.js
