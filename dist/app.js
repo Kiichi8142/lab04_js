@@ -63,3 +63,13 @@ function decreaseItem(productId) {
         updateItems()
     }
 }
+
+function closeModal() {
+    let modal_panel = document.getElementById('modal-panel');
+    modal_panel.classList.add('hidden')
+}
+
+function showModal() {
+    let modal_panel = document.getElementById('modal-panel');
+    modal_panel.classList.remove('hidden')
+}
