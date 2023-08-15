@@ -7,17 +7,21 @@ function changeImg() {
 }
 
 function nextImg() {
-    if (currentSlideOrder >= 1 && currentSlideOrder < 4) {
+    if (currentSlideOrder == 4) {
+        currentSlideOrder = 1;
+    } else if (currentSlideOrder >= 1) {
         currentSlideOrder++;
-        changeImg();
     }
+    changeImg();
 }
 
 function prevImg() {
-    if (currentSlideOrder > 1 && currentSlideOrder <= 4) {
+    if (currentSlideOrder == 1) {
+        currentSlideOrder = 4;
+    } else if (currentSlideOrder <= 4) {
         currentSlideOrder--;
-        changeImg();
     }
+    changeImg();
 }
 
 function updateItems() {
