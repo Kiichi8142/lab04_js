@@ -157,41 +157,41 @@
             <div class="grid sm:grid-cols-3 xl:grid-cols-4 gap-4">
                 <label class="col-span-4">
                     <span>Email</span>
-                    <input name="email" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <input required maxlength="62" name="email" type="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                 </label>
                 <label class="col-span-2">
                     <span>First Name</span>
-                    <input name="fname" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <input required name="fname" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                 </label>
                 <label class="col-span-2">
                     <span>Last Name</span>
-                    <input name="lname" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <input required name="lname" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                 </label>
                 <label class="col-span-1">
                     <span>Tel. Number</span>
-                    <input name="tel" type="tel" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <input pattern="[0-9]{10}" placeholder="10-digit number" maxlength="10" required name="tel" type="tel" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                 </label>
             </div>
             <div class="grid sm:grid-cols-3 xl:grid-cols-4 gap-4">
                 <label class="col-span-1">
                     <span>District</span>
-                    <input name="district" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <input required name="district" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                 </label>
                 <label class="col-span-1">
                     <span>Sub-District</span>
-                    <input name="s-district" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <input required name="s-district" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                 </label>
                 <label class="col-span-1">
                     <span>Province</span>
-                    <input name="province" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <input required name="province" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                 </label>
                 <label class="col-span-1">
                     <span>Postal Address</span>
-                    <input name="postal" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <input pattern="[0-9]{5}" placeholder="5-digit number" maxlength="5" required name="postal" type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                 </label>
                 <label class="col-span-4">
                     <span class="text-gray-900">Address</span>
-                    <textarea name="address" class="
+                    <textarea maxlength="255" required name="address" class="
                         mt-1
                         block
                         w-full
